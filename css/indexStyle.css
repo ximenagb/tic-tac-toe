@@ -1,5 +1,4 @@
 .container {
-  background-image: url("../img/background-01.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -11,13 +10,13 @@
   max-height: 100%;
 }
 
-.yellowBck {
-  background-color: #FDB714;
+.greenBck {
+  background-color: #cbeedc;
   border-radius: 15px;
   align-items: center;
   text-align: center;
   padding: 14px 0;
-  height: 400px;
+  height: 250px;
   width: 30%;
   position: relative;
   top: 40%;
@@ -56,14 +55,14 @@ input {
 }
 
 input[type="text"], [type="password"] {
-  border: 3px #253C80 solid;
+  border: 3px #f44e11 solid;
   background: transparent;
   padding-left: 12px;
 }
 
 input[type="submit"] {
-  background-color: #253C80;
-  color: #FDB714;
+  background-color: #f44e11;
+  color: #cbeedc;
   border: none;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -75,7 +74,7 @@ input[type="submit"] {
 
 ::placeholder {
   padding-left: 0;
-  color: #253C80;
+  color: #f44e11;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   letter-spacing: 3px;
@@ -88,7 +87,7 @@ a {
   display: block;
   margin: 10px;
   font-size: 9px;
-  color: #253C80;
+  color: #f44e11;
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   letter-spacing: 3px;
